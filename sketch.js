@@ -80,7 +80,7 @@ function spawnZombie() {
   if (frameCount % 60 === 0) {
     var zombie = createSprite(
       random(displayWidth / 2, displayWidth - 100),
-      random(100, displayHeight - 100)
+      random(100, displayHeight - 400)
     );
     zombie.addImage(zombieImg);
     zombie.scale = 0.1;
